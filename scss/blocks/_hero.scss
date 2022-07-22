@@ -1,0 +1,48 @@
+.site__hero{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    margin: 0;
+    padding: 140px 0;
+    width: 1240px;
+    @include center;
+    background-image: url(../../images/iPhone12.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 305px) calc(50% - 5px);
+}
+.hero__content{
+    margin: 0 0 0 0 ;
+    padding: 0;
+    @include column;
+    width: 600px;
+}
+.hero__title{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 125%;
+    font-size: 40px;
+    color: #141b41;
+}
+.hero__text{
+    font-weight: 300;
+    line-height: 140%;
+    font-size: 24px;
+    color: #72727e;
+
+}
+.hero__link{
+    width: 240px;
+    padding: 18px 45px;
+    margin-top: 65px;
+    color:#fff;
+    background-color: #446df6;
+    border: 1px solid #446df6;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 140%;
+
+}

@@ -1,0 +1,46 @@
+.site__header{
+    margin: 0;
+    padding: 39px;
+}
+.header{
+    margin: 0;
+    padding: 0;
+    width: 1240px;
+    @include center;
+    
+}
+.header__logo--link{
+    text-decoration: none;
+}
+.header__list{
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    @include center;
+    list-style: none;
+}
+.header__item{
+    margin: 0;
+    padding: 0;
+}
+.nav__link{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    color:#72727e;
+    text-decoration: none;
+}
+.header__link{
+    text-decoration: none;
+    width: 170px;
+    padding: 14px 0;
+    border: 1px solid #446df6;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 16px;
+    color:#446df6;
+}
